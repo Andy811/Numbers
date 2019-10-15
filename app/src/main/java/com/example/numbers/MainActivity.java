@@ -38,7 +38,8 @@ public class MainActivity extends AppCompatActivity {
         });
     }
    public void zero(View view){
-     this.num.setText("0");
+     pushTimes=0;
+        this.num.setText(Integer.toString(pushTimes));
     }
 
     @Override
